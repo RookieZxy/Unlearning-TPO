@@ -20,6 +20,19 @@ CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc_per_node=2 --master_port=$master_port 
 - You can also modify the <kbd style="background-color: #f2f2f2;">save_dir</kbd> to change the path where the unlearned model will be saved.
 - The <kbd style="background-color: #f2f2f2;">fill_mask</kbd> field in <kbd style="background-color: #f2f2f2;">forget.yaml</kbd> controls whether the unlearning process leverages our unwanted information identification module. The default value is True.
 -  You can choose the model used for the identification process by setting the <kbd style="background-color: #f2f2f2;">classifier</kbd> field in the same file. Available options are: 'gpt' and 'bert'
+-  To unlearn a model on a forget set, use the following command:
+```bash
+CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc_per_node=2 --master_port=$master_port forget.py --config-name=forget.yaml split=${split} batch_size=4 gradient_accumulation_steps=4 model_family=${model} lr=${lr}
+```
+When using **Targeted Preference Optimization (TPO)** for unlearning, the following `β` values achieve the best forget quality across different models and TOFU benchmark settings:
+| Model         | Forget 01 | Forget 05 | Forget 10 |
+|---------------|-----------|-----------|-----------|
+| LLaMa-2 7B     | 0.32      | 0.32      | 0.23      |
+| LLaMa-3.2 3B   | 0.30      | 0.27      | 0.19      |
+
+- Once the unlearning process is complete, the results will be saved in <kbd style="background-color: #f2f2f2;">${save_dir}/checkpoint/aggregate_stat.txt</kbd>.
+
+
 
 
 
