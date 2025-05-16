@@ -15,6 +15,9 @@ lr=1e-5
 CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc_per_node=2 --master_port=$master_port finetune.py --config-name=finetune.yaml split=${split} batch_size=4 gradient_accumulation_steps=4 model_family=${model} lr=${lr}
 ```
 
+## Uwanted information identification
+You can find the code of Uwanted information identification process in the <kbd style="background-color: #f2f2f2;">identification_TOFU</kbd> file with bert model
+
 ## Get the unlearned model
 - Ensure that the <kbd style="background-color: #f2f2f2;">model_path</kbd> is correctly set in the <kbd style="background-color: #f2f2f2;">forget.yaml</kbd> configuration file.
 - You can also modify the <kbd style="background-color: #f2f2f2;">save_dir</kbd> to change the path where the unlearned model will be saved.
