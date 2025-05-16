@@ -16,7 +16,8 @@ CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc_per_node=2 --master_port=$master_port 
 ```
 
 ## Uwanted information identification
-You can find the code of Uwanted information identification process in the <kbd style="background-color: #f2f2f2;">identification_TOFU</kbd> file with bert model
+You can find the code of information identification process in the <kbd style="background-color: #f2f2f2;">identification_TOFU</kbd> file with bert model
+We also provide the full instruction of information identification process with GPT-4o in <kbd style="background-color: #f2f2f2;">Instruction for Identifying Important Words (TOFU)</kbd> file
 
 ## Get the unlearned model
 - Ensure that the <kbd style="background-color: #f2f2f2;">model_path</kbd> is correctly set in the <kbd style="background-color: #f2f2f2;">forget.yaml</kbd> configuration file.
