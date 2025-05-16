@@ -1,0 +1,49 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "forget10",
+  "dataset_name": "tofu",
+  "dataset_size": 106524,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/locuslab/TOFU@c3ad0b4efbdd12e11cc4faf95aebfbd6f53b664b/forget10.json": {
+      "num_bytes": 114856,
+      "checksum": null
+    }
+  },
+  "download_size": 114856,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "common_words": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 221380,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 106524,
+      "num_examples": 400,
+      "dataset_name": "tofu"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
