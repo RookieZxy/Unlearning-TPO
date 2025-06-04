@@ -1,5 +1,5 @@
 # Unlearning-TPO
-This is the official repository for "[paper name](link)" by [Xiangyu Zhou](www.linkedin.com/in/xiangyu-zhou-71086321a)
+This is the official repository for "[Not All Tokens Are Meant to Be Forgotten](https://arxiv.org/pdf/2506.03142)" by [Xiangyu Zhou](https://www.linkedin.com/in/xiangyu-zhou-71086321a/), [Yao Qiang](https://qiangyao1988.github.io/), [Saleh Zare Zade](https://scholar.google.com/citations?user=O3X_iagAAAAJ&hl=en&oi=ao), [Douglas Zytko](https://dougzytko.com/), [Prashant Khanduri](https://sites.google.com/view/khanduri-prashant/), [Dongxiao Zhu](https://dongxiaozhu.github.io/)
 
 <table align="center">
   <tr>
