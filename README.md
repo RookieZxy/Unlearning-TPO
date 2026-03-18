@@ -9,7 +9,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/xzhou98/Unlearning-TPO)](https://github.com/xzhou98/Unlearning-TPO)
 </div>
 
-This is the official code repository for AAAI 2026 paper "[Not All Tokens Are Meant to Be Forgotten](https://arxiv.org/abs/2506.03142)" by [Xiangyu Zhou](https://www.linkedin.com/in/xiangyu-zhou-71086321a/), [Yao Qiang](https://qiangyao1988.github.io/), [Saleh Zare Zade](https://scholar.google.com/citations?user=O3X_iagAAAAJ&hl=en&oi=ao), [Douglas Zytko](https://dougzytko.com/), [Prashant Khanduri](https://sites.google.com/view/khanduri-prashant/), [Dongxiao Zhu](https://dongxiaozhu.github.io/)
+This is the official code repository for AAAI 2026 paper "[Not All Tokens Are Meant to Be Forgotten](https://ojs.aaai.org/index.php/AAAI/article/view/41156)" by [Xiangyu Zhou](https://www.linkedin.com/in/xiangyu-zhou-71086321a/), [Yao Qiang](https://qiangyao1988.github.io/), [Saleh Zare Zade](https://scholar.google.com/citations?user=O3X_iagAAAAJ&hl=en&oi=ao), [Douglas Zytko](https://dougzytko.com/), [Prashant Khanduri](https://sites.google.com/view/khanduri-prashant/), [Dongxiao Zhu](https://dongxiaozhu.github.io/)
 
 <table align="center">
   <tr>
