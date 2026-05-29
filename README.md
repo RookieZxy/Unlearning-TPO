@@ -2,7 +2,7 @@
   
 # Not All Tokens Are Meant to Be Forgotten (AAAI-2026 Oral)
 
-[![Venue: AAAI 2026](https://img.shields.io/badge/Venue-AAAI%202026-green)]()
+[![Venue: AAAI 2026](https://img.shields.io/badge/Venue-AAAI%202026-green)](https://aaai.org/conference/aaai/aaai-26/)
 [![preprint](https://img.shields.io/badge/arXiv-2410.07163-B31B1B)](https://arxiv.org/abs/2506.03142)
 [![issues](https://img.shields.io/badge/Issues-Welcome!-yellow)](https://github.com/xzhou98/Unlearning-TPO/issues)
 [![GitHub repo size](https://img.shields.io/github/repo-size/xzhou98/Unlearning-TPO)](https://github.com/xzhou98/Unlearning-TPO)
